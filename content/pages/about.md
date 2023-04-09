@@ -4,9 +4,12 @@ template: about-template
 profile_image: /media/profile-image.jpg
 ---
 
-# Hi, I'm John Doe
+# Hi, I'm Callum White
 
-This website is a live example of a Gatsby Starter — it's not a real blog.
-People using this starter may want to add some information to this page about them or their business.
+As a hardworking, mature, and driven individual with over 8 years of commercial experience in the software industry, I can offer the highest level of commitment and motivation to deliver a professional demeanour. 
+
+During my career in development, I have successfully built .NET cloud base analytical and warehouse management systems, HR and Payroll, with multiple integration modules between both products. However, as an innovative individual, I strive to adapt and expand my skillset as technology advances and changes.
+
+Currently a Data Engineer at MHR
 
 
