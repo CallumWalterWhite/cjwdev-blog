@@ -4,10 +4,7 @@ date: 2023-04-08
 tags:
   - APIs
   - Concurrency
-  - Multithreading
-  - Multiprocessing
-  - Asynchronous 
-  - Programming
+  - Asynchronous
 social_image: /media/rocket.jpg
 description: Learn about the benefits of using concurrency within APIs.
 ---

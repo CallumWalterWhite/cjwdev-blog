@@ -6,17 +6,18 @@ profile_image: /media/profile-image.jpg
 
 # Hi, I'm Callum White
 
-As a hardworking, mature, and driven individual with over 8 years of commercial experience in the software industry, I can offer the highest level of commitment and motivation to deliver a professional demeanour. 
-<br />
-During my career in development, I have successfully built .NET cloud base analytical and warehouse management systems, HR and Payroll, with multiple integration modules between both products. However, as an innovative individual, I strive to adapt and expand my skillset as technology advances and changes.
-<br />
-Currently a Data Engineer at MHR
+# Professional Experience
 
-# Experience
+As a hardworking, mature, and driven individual with over **8 years** of commercial experience in the software industry, I can offer the highest level of commitment and motivation to deliver a professional demeanor.
 
-## Data Engineer - MHR (1 year - current)
+During my career in development, I have successfully built **.NET cloud-based analytical and warehouse management systems, HR and Payroll, with multiple integration modules between both products**. However, as an innovative individual, I strive to adapt and expand my skillset as technology advances and changes.
 
-## Senior Software Engineer - MHR (3 years)
+## Current Position
 
-## Software Developer - Data Clarity (4 years)
+- **Data Engineer** at MHR _(1 year - current)_
+
+## Previous Positions
+
+- **Senior Software Engineer** at MHR _(3 years)_
+- **Software Developer** at Data Clarity _(4 years)_
 
