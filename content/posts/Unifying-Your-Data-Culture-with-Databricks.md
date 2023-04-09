@@ -6,7 +6,7 @@ tags:
   - Data Culture
   - Data Platform
   - Unified Analytics
-social_image: /media/databricks_logo.jpg
+social_image: https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks_Logo.png
 description: Learn about the benefits of using concurrency with APIs and the different approaches available, including multithreading, multiprocessing, and asynchronous programming.
 ---
 
