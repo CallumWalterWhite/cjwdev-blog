@@ -7,7 +7,7 @@ tags:
   - Data Platform
   - Unified Analytics
 social_image: /media/rocket.jpg
-description: Learn about the benefits of using concurrency with APIs and the different approaches available, including multithreading, multiprocessing, and asynchronous programming.
+description: Learn how Databricks can help you unify your data culture.
 ---
 
 # Unifying Your Data Culture with Databricks
