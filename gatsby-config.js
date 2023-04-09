@@ -9,21 +9,17 @@ module.exports = {
     description: `CJWDev Blog.`,
     siteUrl: `https://gatsbyglass.netlify.app`,
     social: {
-      twitter: `yinkakun`,
+      twitter: `CalWalterWhite`,
     },
     socialLinks: [
       {
         name: "github",
-        url: "https://github.com",
+        url: "https://github.com/CallumWalterWhite",
       },
       {
         name: "twitter",
-        url: "https://twitter.com",
-      },
-      {
-        name: "instagram",
-        url: "https://instagram.com",
-      },
+        url: "https://twitter.com/CalWalterWhite",
+      }
     ],
   },
   plugins: [
