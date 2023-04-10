@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `CJWDev Blog`,
+    title: `CJW Development`,
     author: {
       name: `Callum White`,
       summary: `.`,
     },
     openGraphImage: `open-graph-image.png`,
-    description: `CJWDev Blog.`,
+    description: `CJW Development.`,
     siteUrl: `https://gatsbyglass.netlify.app`,
     social: {
       twitter: `CalWalterWhite`,

@@ -4,12 +4,9 @@ date: 2023-04-08
 tags:
   - APIs
   - Concurrency
-  - Asynchronous
 social_image: /media/rocket.jpg
 description: Learn about the benefits of using concurrency within APIs.
 ---
-
-# Using Concurrency with APIs
 
 APIs are a critical component of modern applications, enabling communication between different systems and services. However, as the number of API requests grows, performance and scalability can become a challenge. One way to address these challenges is through the use of concurrency. In this post, we'll explore how concurrency can improve the performance and scalability of your APIs, allowing you to handle more requests and reduce response times.
 

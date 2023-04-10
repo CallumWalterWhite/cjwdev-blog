@@ -2,9 +2,8 @@
 title: Blob Trigger vs Event Grid Trigger
 date: 2023-03-13
 tags:
-  - Event Grid Trigger
   - Azure
-  - Blob Trigger
+  - Blobs
 social_image: /media/rocket.jpg
 description: Learn about Blob Trigger vs Event Grid Trigger.
 ---
