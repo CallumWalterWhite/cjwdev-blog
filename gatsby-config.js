@@ -17,8 +17,8 @@ module.exports = {
         url: "https://github.com/CallumWalterWhite",
       },
       {
-        name: "twitter",
-        url: "https://twitter.com/CalWalterWhite",
+        name: "linkedin",
+        url: "https://www.linkedin.com/in/callum-white-60/",
       }
     ],
   },
