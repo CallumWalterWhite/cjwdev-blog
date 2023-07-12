@@ -25,5 +25,7 @@ Databricks, on the other hand, is a cloud-based big data processing and analytic
 
 4. Real-time Data Analytics: The integration of CubeJS with Databricks enables real-time data analytics capabilities. CubeJS can be configured to listen to data changes and trigger updates in real-time. Databricks, with its streaming data processing capabilities, can process and analyze data as it arrives, enabling timely insights for critical business decisions.
 
+![Databricks Logo](https://cubedev-blog-images.s3.us-east-2.amazonaws.com/53a4b96e-e846-4d5e-88d7-515b3fcb407d.png)
+
 ## Conclusion
 Integrating CubeJS with Databricks unlocks a wealth of possibilities for building enterprise data applications. By combining the efficient data querying and aggregation capabilities of CubeJS with the scalable data processing and analytics power of Databricks, organizations can derive valuable insights from their data in a cost-effective manner. Whether it's building interactive dashboards, real-time analytics applications, or performing complex ad hoc queries, this integration offers the best of both worlds. Embrace the synergy of CubeJS and Databricks to unleash the full potential of your enterprise data and drive data-driven decision-making to new heights.
