@@ -5,7 +5,7 @@ tags:
   - Agile
   - Project management
 social_image: /media/rocket.jpg
-description: Embracing the Agile Mindset: Beyond a Methodology, It's the Soul of Effective Software Development.
+description: Embracing the Agile Mindset - Beyond a Methodology, It's the Soul of Effective Software Development.
 ---
 
 In the fast-paced world of software development, staying adaptable and responsive to change is the key to success. Agile development, often associated with specific methodologies like Scrum or Kanban, is more than just a set of practices; it's a mindset that empowers teams to navigate uncertainties, embrace changes, and deliver high-quality software. In this blog, we'll delve into how Agile is more of a mindset than a rigid SDLC (Software Development Life Cycle) methodology and how it helped our team triumph through ambiguity in building a data platform.
