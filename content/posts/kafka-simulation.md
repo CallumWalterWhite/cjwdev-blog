@@ -9,7 +9,7 @@ social_image: /media/rocket.jpg
 description: Learn about how to design and build your own Kafka message broker, written in Python.
 ---
 
-![Kafka](/media/kafka.jpg)
+![Kafka](https://hub.meltano.com/assets/logos/extractors/kafka.png)
 
 Welcome to my blog, fellow developers! Today, we'll be diving into the fascinating world of Apache Kafka and exploring how you can create your very own Kafka message broker from scratch. If you're interested in distributed systems and building scalable messaging platforms, this is the blog post for you!
 
