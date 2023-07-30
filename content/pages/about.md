@@ -6,16 +6,16 @@ profile_image: /media/profile-image.jpg
 
 # Hi, I'm Callum White
 
-As a hardworking, mature, and driven individual with over **8 years** of commercial experience in the software industry, I can offer the highest level of commitment and motivation to deliver a professional demeanor.
+Experienced Data Engineer and Technical Lead with over 8 years of exceptional achievements in driving successful data platform implementations, cost optimizations, and data-driven decision-making capabilities. 
 <br />
-During my career in development, I have successfully built **.NET cloud-based analytical and warehouse management systems, HR and Payroll, with multiple integration modules between both products**. However, as an innovative individual, I strive to adapt and expand my skillset as technology advances and changes.
+Skilled in architecting advanced ETL workflows and empowering cross-functional teams to deliver innovative solutions. Proven history of leading high-impact projects, exceeding performance expectations, and guiding seamless migrations.
 <br />
-## Current Position
+Most my blogs are on the following -
+C#, Python, SQL, Angular, Spark, .NET, Architecture, Databricks, Azure cloud services, CI/CD, DevOps, Project management, Cost management, Mentoring
 
+**Current Position:**
 - **Data Engineer** at MHR _(1 year - current)_
-
-## Previous Positions
-
+**Previous Positions:**
 - **Senior Software Engineer** at MHR _(3 years)_
 - **Software Developer** at Data Clarity _(4 years)_
 
