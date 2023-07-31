@@ -12,13 +12,13 @@ In today's data-driven world, businesses are increasingly relying on robust data
 
 ## Understanding CubeJS
 
-CubeJS has been a game-changer for us as an open-source analytical API platform. What sets it apart is its ability to empower developers like us to create interactive data applications with ease and speed. Acting as a middleware layer between data sources and the frontend, CubeJS streamlines data retrieval and aggregation processes. It cleverly abstracts complex SQL queries and implements data pre-aggregation, resulting in faster query performance. With these powerful features, building interactive dashboards, visualizations, and real-time analytics applications becomes a breeze.
+CubeJS has been a game-changer for us as an open-source analytical API platform. What sets it apart is its ability to empower developers like us to create interactive data applications with ease and speed. Acting as a middleware layer between data sources and the frontend, CubeJS streamlines data retrieval and aggregation processes. It cleverly abstracts complex SQL queries and implements data pre-aggregation, resulting in faster query performance. With these powerful features, building interactive dashboards, visualisations, and real-time analytics applications becomes a breeze.
 
 ## Exploring Databricks
 
-Our journey with Databricks has been nothing short of impressive. As a cloud-based big data processing and analytics platform, it offers a unified analytics workspace, seamlessly integrating data engineering and data science capabilities. Leveraging the power of Apache Spark, Databricks handles large-scale data processing tasks effectively. We were particularly drawn to its scalable infrastructure that effortlessly processes and analyzes data from diverse sources, including batch and streaming data.
+Our journey with Databricks has been nothing short of impressive. As a cloud-based big data processing and analytics platform, it offers a unified analytics workspace, seamlessly integrating data engineering and data science capabilities. Leveraging the power of Apache Spark, Databricks handles large-scale data processing tasks effectively. We were particularly drawn to its scalable infrastructure that effortlessly processes and analyses data from diverse sources, including batch and streaming data.
 
-We've even written about our positive experiences with Databricks in a blog post titled ["Unifying Your Data Culture with Databricks"](https://cjw-dev.com/blog/Unifying-Your-Data-Culture-with-Databricks/). In that blog, we delved deeper into how Databricks can bring together data teams and foster a cohesive data culture within organizations.
+We've even written about our positive experiences with Databricks in a blog post titled ["Unifying Your Data Culture with Databricks"](https://cjw-dev.com/blog/Unifying-Your-Data-Culture-with-Databricks/). In that blog, we delved deeper into how Databricks can bring together data teams and foster a cohesive data culture within organisations.
 
 ## Setting up CubeJS with Databricks
 
@@ -120,7 +120,7 @@ cubes:
 
 
 
-Remember, what makes this combination truly exceptional is not just the technical prowess but the ability to host it yourself. So, explore and unleash the full potential of your enterprise data, and embark on a data-driven journey that yields invaluable insights for your organization. Happy data engineering!
+Remember, what makes this combination truly exceptional is not just the technical prowess but the ability to host it yourself. So, explore and unleash the full potential of your enterprise data, and embark on a data-driven journey that yields invaluable insights for your organisation. Happy data engineering!
 
 
 

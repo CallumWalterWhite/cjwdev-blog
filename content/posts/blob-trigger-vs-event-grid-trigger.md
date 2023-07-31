@@ -30,7 +30,7 @@ The Event Grid Trigger is a versatile trigger that can start a function in respo
 - High scale and performance: For scenarios involving high scale, such as containers with more than 100,000 blobs or storage accounts with over 100 blob updates per second, the Event Grid Trigger shines. It can handle massive event volumes efficiently and effectively.
 
 **Additional Benefits:**
-- Minimizing latency: If your function app is running on the Consumption plan, there might be up to a 10-minute delay in processing new blobs if the function app has been idle. To address this, you can switch to an App Service plan with Always On enabled. Alternatively, you can leverage the Event Grid Trigger, which can substantially reduce latency for processing new blobs.
+- Minimising latency: If your function app is running on the Consumption plan, there might be up to a 10-minute delay in processing new blobs if the function app has been idle. To address this, you can switch to an App Service plan with Always On enabled. Alternatively, you can leverage the Event Grid Trigger, which can substantially reduce latency for processing new blobs.
 
 ## Choosing the Right Trigger:
 
@@ -44,10 +44,10 @@ Now that we have an understanding of the differences between Blob Trigger and Ev
 **Use Event Grid Trigger When:**
 - You want to leverage Blob storage accounts for blob input and output bindings.
 - Your application deals with high-scale scenarios, involving a large number of blobs or frequent updates.
-- Minimizing latency for processing new blobs is essential, especially when running on the Consumption plan.
+- Minimising latency for processing new blobs is essential, especially when running on the Consumption plan.
 
 ## Conclusion:
 
 Both Blob Trigger and Event Grid Trigger are powerful tools that enable seamless integration of Azure Functions with Azure Blob storage events. The choice between the two triggers depends on your specific requirements and the scale of your application. If you need more control over your storage account type and handle high-scale scenarios with low latency, the Event Grid Trigger is the way to go. On the other hand, for simpler scenarios and immediate access to blob content, the Blob Trigger remains a reliable choice.
 
-By understanding the capabilities and limitations of each trigger, you can make informed decisions when designing your serverless applications on Azure. Utilizing the right trigger ensures efficient processing of blob events and empowers you to build robust, event-driven solutions that scale effortlessly with your business needs.
+By understanding the capabilities and limitations of each trigger, you can make informed decisions when designing your serverless applications on Azure. Utilising the right trigger ensures efficient processing of blob events and empowers you to build robust, event-driven solutions that scale effortlessly with your business needs.
