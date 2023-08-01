@@ -3,7 +3,9 @@ title: Blob Trigger vs Event Grid Trigger
 date: 2023-03-13
 tags:
   - Azure
-  - Blobs
+  - Triggers
+  - Serverless
+  - EDA
 social_image: /media/rocket.jpg
 description: Learn about Blob Trigger vs Event Grid Trigger.
 ---
