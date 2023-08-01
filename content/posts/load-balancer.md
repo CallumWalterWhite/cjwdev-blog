@@ -3,7 +3,8 @@ title: Writing Your Own Round-Robin Load Balancer with Java
 date: 2023-04-21
 tags:
   - Java
-  - Microservices
+  - Algorithms
+  - Performance
 social_image: /media/rocket.jpg
 description: Learn about how to design and build your own load balancer, written in Java.
 ---
