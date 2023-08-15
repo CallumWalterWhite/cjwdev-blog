@@ -38,8 +38,6 @@ Having used CubeJS and Databricks in tandem for a Proof of Concept (PoC), we wer
 
 3. Cost-Effectiveness at Its Core: Building data applications need not be expensive. With CubeJS being open-source and Databricks providing a pay-as-you-go model, we appreciated the cost-effectiveness of this integration. It allowed us to create powerful data applications without breaking the bank.
 
-4. Real-Time Data Analytics: CubeJS and Databricks together opened the doors to real-time data analytics. By configuring CubeJS to listen for data changes and Databricks to handle streaming data, we gained timely insights for critical business decisions.
-
 ## Embrace the Power of CubeJS and Databricks
 
 In conclusion, our experience integrating CubeJS with Databricks was nothing short of transformative. This combination offers a winning solution for building comprehensive data applications with ease, efficiency, and cost-effectiveness. Whether you're working on interactive dashboards, real-time analytics, or intricate ad hoc queries, embracing the synergy of CubeJS and Databricks will elevate your data engineering efforts to new heights.
