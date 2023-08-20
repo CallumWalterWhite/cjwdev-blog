@@ -26,19 +26,19 @@ public class Order
 This Order class violates SRP because it handles three distinct responsibilities - calculating the total, generating an invoice, and printing a receipt. To adhere to SRP, we can refactor it like this:
 
 ```c#
-public class Order
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Order</span>
 {
-    public void CalculateTotal() { /* Calculate order total */ }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">CalculateTotal</span>()</span> { <span class="hljs-comment">/* Calculate order total */</span> }
 }
 
-public class Invoice
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Invoice</span>
 {
-    public void Generate() { /* Generate invoice */ }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Generate</span>()</span> { <span class="hljs-comment">/* Generate invoice */</span> }
 }
 
-public class Receipt
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Receipt</span>
 {
-    public void Print() { /* Print receipt */ }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Print</span>()</span> { <span class="hljs-comment">/* Print receipt */</span> }
 }
 
 ```
