@@ -47,7 +47,3 @@ The demo and source code in the repository should give you a good starting point
 Load balancing is a crucial technique that ensures the efficient distribution of computational workloads and network traffic, leading to better performance and reduced latency in Internet applications. By exploring and creating our own round-robin load balancer using Java, we can gain valuable insights into the intricacies of load balancing.
 
 I hope you find this blog post and the load balancer simulator helpful in your journey to learn more about load balancing. Happy coding!
-
-If you have any questions or feedback, feel free to leave a comment below or raise an issue on the GitHub repository. Your contributions are always welcome.
-
-Keep exploring, keep learning, and until next time, happy coding!

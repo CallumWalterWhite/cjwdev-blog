@@ -118,9 +118,7 @@ cubes:
         type: string
 ```
 
-
-
-Remember, what makes this combination truly exceptional is not just the technical prowess but the ability to host it yourself. So, explore and unleash the full potential of your enterprise data, and embark on a data-driven journey that yields invaluable insights for your organization. Happy data engineering!
+Remember, what makes this combination truly exceptional is not just the technical prowess but the ability to host it yourself. So, explore and unleash the full potential of your enterprise data, and embark on a data-driven journey that yields invaluable insights for your organisation. Happy data engineering!
 
 
 

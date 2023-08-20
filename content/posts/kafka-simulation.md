@@ -52,5 +52,3 @@ Feel free to experiment, tweak, and expand upon the simulation to deepen your un
 I hope this blog post has piqued your interest in Apache Kafka and inspired you to explore the world of distributed systems further. Building your own Kafka message broker, even in a simulated form, is a rewarding and educational experience.
 
 Remember to check out the **Distributed Kafka Simulation** repository on GitHub to access the code and get started on your journey. Happy coding, and may you unlock new possibilities with Kafka!
-
-If you have any questions or ideas for future blog posts, feel free to leave a comment below. Happy coding, everyone!
