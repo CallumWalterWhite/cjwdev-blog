@@ -46,60 +46,62 @@ Now each class has a single responsibility, making the code more maintainable an
 
 ## Open/Closed Principle (OCP)
 
-The Open/Closed Principle states that software entities (e.g., classes, modules) should be open for extension but closed for modification. In other words, you should be able to add new functionality without altering existing code. Consider this example:
+The Open/Closed Principle states that software entities (e.g., classes, modules) should be open for extension but closed for modification. In other words, you should be able to add new functionality without altering existing code. Let's explore another example:
+
+Suppose we have a PaymentProcessor class that handles payment processing for different payment methods:
 
 ```csharp
-public class Circle
+public class PaymentProcessor
 {
-    public double Radius { get; set; }
-
-    public double Area()
+    public void ProcessPayment(string paymentMethod, double amount)
     {
-        return 3.14 * Radius * Radius;
-    }
-}
-
-public class Square
-{
-    public double Side { get; set; }
-
-    public double Area()
-    {
-        return Side * Side;
+        if (paymentMethod == "CreditCard")
+        {
+            // Process credit card payment
+        }
+        else if (paymentMethod == "PayPal")
+        {
+            // Process PayPal payment
+        }
+        // More payment methods...
     }
 }
 
 ```
-To make this code adhere to OCP, we can use abstraction and interfaces:
+This class violates the OCP because whenever you want to add a new payment method, you need to modify the ProcessPayment method. To adhere to OCP, we can use a strategy pattern:
 
 ```csharp
-public interface IShape
+public interface IPaymentMethod
 {
-    double Area();
+    void ProcessPayment(double amount);
 }
 
-public class Circle : IShape
+public class CreditCardPayment : IPaymentMethod
 {
-    public double Radius { get; set; }
-
-    public double Area()
+    public void ProcessPayment(double amount)
     {
-        return 3.14 * Radius * Radius;
+        // Process credit card payment
     }
 }
 
-public class Square : IShape
+public class PayPalPayment : IPaymentMethod
 {
-    public double Side { get; set; }
-
-    public double Area()
+    public void ProcessPayment(double amount)
     {
-        return Side * Side;
+        // Process PayPal payment
+    }
+}
+
+public class PaymentProcessor
+{
+    public void ProcessPayment(IPaymentMethod paymentMethod, double amount)
+    {
+        paymentMethod.ProcessPayment(amount);
     }
 }
 
 ```
-Now, we can add new shapes by creating classes that implement the IShape interface without modifying the existing code.
+Now, we can add new payment methods by creating classes that implement the IPaymentMethod interface without modifying the existing code. The PaymentProcessor is open for extension but closed for modification, following the Open/Closed Principle.
 
 ## Liskov Substitution Principle (LSP)
 
@@ -248,7 +250,6 @@ public class Switch
     }
 }
 ```
-
 Now, the Switch class depends on an abstraction (ISwitchable), adhering to the Dependency Inversion Principle.
 
 ## Conclusion
