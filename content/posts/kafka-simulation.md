@@ -29,7 +29,7 @@ This repository provides a hands-on, educational experience that will guide you 
 
 ## What to Expect in the Repository
 
-Inside the repository, you'll find a well-organized codebase with clear explanations and comments to help you understand each step of the implementation. The simulation will cover essential aspects of Kafka, such as:
+Inside the repository, you'll find a well-organised codebase with clear explanations and comments to help you understand each step of the implementation. The simulation will cover essential aspects of Kafka, such as:
 
 1. **Topics and Partitions:** Learn how to create topics and split them into partitions for scalable message storage and consumption.
 
