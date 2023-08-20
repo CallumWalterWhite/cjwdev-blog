@@ -14,7 +14,7 @@ SOLID is a set of five principles that, when followed, can help software develop
 
 The Single Responsibility Principle states that a class should have only one reason to change. In other words, a class should have a single responsibility or job. Let's consider a simple example
 
-```c#
+```csharp
 public class Order
 {
     public void CalculateTotal() { /* Calculate order total */ }
@@ -25,20 +25,20 @@ public class Order
 
 This Order class violates SRP because it handles three distinct responsibilities - calculating the total, generating an invoice, and printing a receipt. To adhere to SRP, we can refactor it like this:
 
-```c#
-<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Order</span>
+```csharp
+public class Order
 {
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">CalculateTotal</span>()</span> { <span class="hljs-comment">/* Calculate order total */</span> }
+    public void CalculateTotal() { /* Calculate order total */ }
 }
 
-<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Invoice</span>
+public class Invoice
 {
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Generate</span>()</span> { <span class="hljs-comment">/* Generate invoice */</span> }
+    public void Generate() { /* Generate invoice */ }
 }
 
-<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Receipt</span>
+public class Receipt
 {
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Print</span>()</span> { <span class="hljs-comment">/* Print receipt */</span> }
+    public void Print() { /* Print receipt */ }
 }
 
 ```
@@ -48,7 +48,7 @@ Now each class has a single responsibility, making the code more maintainable an
 
 The Open/Closed Principle states that software entities (e.g., classes, modules) should be open for extension but closed for modification. In other words, you should be able to add new functionality without altering existing code. Consider this example:
 
-```c#
+```csharp
 public class Circle
 {
     public double Radius { get; set; }
@@ -72,7 +72,7 @@ public class Square
 ```
 To make this code adhere to OCP, we can use abstraction and interfaces:
 
-```c#
+```csharp
 public interface IShape
 {
     double Area();
@@ -105,7 +105,7 @@ Now, we can add new shapes by creating classes that implement the IShape interfa
 
 The Liskov Substitution Principle states that objects of a derived class should be able to replace objects of the base class without affecting the correctness of the program. Consider this example:
 
-```c#
+```csharp
 public class Bird
 {
     public virtual void Fly()
@@ -126,7 +126,7 @@ public class Ostrich : Bird
 
 In this case, the Ostrich class violates LSP because it changes the behavior of the Fly method. To adhere to LSP, we can create a new method:
 
-```c#
+```csharp
 public class Bird
 {
     public virtual void Move()
@@ -150,7 +150,7 @@ Now, the Ostrich class extends the behavior without breaking the base class cont
 
 The Interface Segregation Principle states that clients should not be forced to depend on interfaces they do not use. Consider an example where an interface contains too many methods:
 
-```c#
+```csharp
 public interface IWorker
 {
     void Work();
@@ -162,7 +162,7 @@ public interface IWorker
 
 If a class only needs the Work method, it's forced to implement the other two methods, which is wasteful. To follow ISP, we can split the interface:
 
-```c#
+```csharp
 public interface IWorker
 {
     void Work();
@@ -186,7 +186,7 @@ Now, classes can implement the specific interfaces they need, preventing unneces
 
 The Dependency Inversion Principle states that high-level modules should not depend on low-level modules but both should depend on abstractions. Additionally, abstractions should not depend on details; details should depend on abstractions. Consider this example:
 
-```c#
+```csharp
 public class LightBulb
 {
     public void TurnOn() { /* Turn on the light bulb */ }
@@ -213,7 +213,7 @@ public class Switch
 
 This code violates DIP because the Switch class depends on the concrete LightBulb class. To adhere to DIP, we can introduce an abstraction:
 
-```c#
+```csharp
 public interface ISwitchable
 {
     void TurnOn();
