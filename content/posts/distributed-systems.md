@@ -35,7 +35,7 @@ To truly grasp the impact of entropy, let’s explore its mathematical essence. 
 
 Consider Shannon's Entropy Formula, where 'H(X)' represents the entropy of a discrete random variable 'X':
 
-\[ H(X) = - \sum_{i=1}^{n} P(x_i) \cdot \log_2(P(x_i)) \]
+H(X) = - Σ P(x_i) * log_2(P(x_i))
 
 Here, 'P(x_i)' signifies the probability of event 'x_i' occurring. This equation encapsulates the chaos inherent in distributed systems, where probabilities fluctuate, and outcomes are diverse.
 
