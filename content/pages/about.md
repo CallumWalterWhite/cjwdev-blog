@@ -6,15 +6,16 @@ profile_image: /media/profile-image.jpg
 
 # Hi, I'm Callum White
 
-Experienced Data Engineer and Technical Lead with over 8 years of exceptional achievements in driving successful data platform implementations, cost optimizations, and data-driven decision-making capabilities. Skilled in architecting advanced ETL workflows and empowering cross-functional teams to deliver innovative solutions. Proven history of leading high-impact projects, exceeding performance expectations, and guiding seamless migrations.
+Accomplished Technical Lead and Software Engineer with over nine years of experience building and optimising scalable data platforms. Skilled in designing modern data architectures, ELT pipelines, and cloud-based solutions that enable faster, more reliable access to business data. Strong track record of leading teams, mentoring developers, and establishing best practices to drive efficiency and innovation. Passionate about leveraging data to solve complex business challenges and improve decision-making.
 <br />
 <br />
 Most my blogs are on the following -
-C#, Python, SQL, Angular, Spark, .NET, Architecture, Databricks, Azure cloud services, CI/CD, DevOps, Project management, Cost management and Much more!
+C#, Python, SQL, Spark, .NET, Databricks, Snowflake, Azure cloud services, CI/CD, DevOps
 
 **Current Position:**
-- **Data Engineer** at MHR _(1 year - current)_
+- **Senior Software Engineer** at Partners Capital _(1 year)_
 **Previous Positions:**
+- **Staff Engineer** at MHR _(1 year)_
 - **Senior Software Engineer** at MHR _(3 years)_
 - **Software Developer** at Data Clarity _(4 years)_
 

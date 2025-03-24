@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import styled from "styled-components";
 import Tags from "../components/tags";
+import CommentSection from "../components/comment-section";
 
 const PostTemplate = ({ data }) => {
   const { frontmatter, excerpt, html } = data.markdownRemark;
@@ -42,6 +43,7 @@ const PostTemplate = ({ data }) => {
         </PostPagination>
         <Tags tags={frontmatter.tags} />
       </PostWrapper>
+      <CommentSection title={frontmatter.title}></CommentSection>
     </Layout>
   );
 };
@@ -186,9 +188,7 @@ export const pageQuery = graphql`
         tags
         date(formatString: "MMMM DD, YYYY")
         description
-        social_image {
-          absolutePath
-        }
+        social_image
       }
     }
 
