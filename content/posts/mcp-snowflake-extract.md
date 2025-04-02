@@ -6,7 +6,7 @@ tags:
   - Snowflake
   - LLM
   - C#
-social_image: /media/snowflake-mcp.jpg
+social_image: /media/snowflake-mcp.png
 description: Learn how to leverage the Model Context Protocol (MCP) with Snowflake and Ollama-hosted LLMs for seamless, developer-first data extraction workflows.
 ---
 
